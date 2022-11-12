@@ -1,0 +1,36 @@
+X   -   read the data from the CSV file and draw a bar chart that,
+X       -   for any given month, shows the total daily water usage.
+X       -   Place two buttons at the top of the Scene,
+X           -   one in the upper left that says Previous and
+X           -   one in the upper right that says Next.
+X           -   The buttons should be the same size.
+
+x   -   When the program launches,
+x       -   process the data and draw a chart for the first month in the data set.
+x       -   Clicking the Next button should show the next successive month, and so on.
+x       -   if the first month in the data is being displayed, you should prevent from moving back in time. Similarly,
+x       -   if the last month in the data is being displayed, you should prevent moving forward in time.
+
+x   -   Create a class WaterDataPoint that contains appropriate fields, getters/setters, CTORs etc. to properly represent and manage access to the data.
+
+x   -   Create a class WaterDataList that inherits from ArrayList<WaterDataPoint>.
+x       -   In the CTOR for, take a parameter that specifies the file name. The CTOR in WaterDataList should open
+            the data file, process the data, create WaterDataPoints as needed, and add them to the WaterDataList.
+            Note that a WaterDataList IS AN ArrayList and you only need to invoke the "add()" method to add each
+            WaterDataPoint to the WaterDataList.
+x       -   If there are errors in the data for a given date/time, ignore that data point.
+
+x       -   Provide a method in WaterDataList that will return the data for the Next/Previous month depending on
+            which button is clicked in the UI. Return a new ArrayList<WaterDataPoint> from that method that contains
+            only that data from the WaterDataList. Be sure to clear the existing data contained in the BarChart when
+            displaying a new month.
+x       -   Provide whatever other methods on either WaterDataList or WaterDataPoint that you feel is necessary to
+            complete the program. For example, you will  likely need to write a method that summarizes all of the
+            water used for any given day.
+
+x   -   Provide a popup that displays the YYYY.MM and the current reading for any value in the chart.
+x   -   Provide an object oriented solution to this problem - i.e., the controller should only do what is necessary
+        to initialize, retrieve, and display the data. There should be no file operations in the controller.
+
+x   -   Observe all the code style requirements.
+
