@@ -1,5 +1,6 @@
 I uploaded the project after the assignment was due.
-I build public project https://github.com/PhdInSpd/A11_Martinez_JoseAlfredo-WaterUsage.git
+I build public project in intellij
+    https://github.com/PhdInSpd/A11_Martinez_JoseAlfredo-WaterUsage.git
 from directory
     ./target/classes/
 I type @ the command line
