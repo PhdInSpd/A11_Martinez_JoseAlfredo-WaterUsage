@@ -31,5 +31,7 @@ public class WaterUsageApplication extends Application
     public static void main(String[] args)
     {
         launch();
+//      String javaFxVer = com.sun.javafx.runtime.VersionInfo.getRuntimeVersion();
+//      System.out.println(javaFxVer);
     }
 }

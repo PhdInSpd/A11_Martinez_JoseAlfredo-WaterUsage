@@ -1,0 +1,11 @@
+I uploaded the project after the assignment was due.
+I build public project https://github.com/PhdInSpd/A11_Martinez_JoseAlfredo-WaterUsage.git
+from directory
+    ./target/classes/
+I type @ the command line
+    java edu.srjc.martinez.jose.a11_martinez_jose.WaterUsageApplication
+
+I get response
+   Error: Could not find or load main class edu.srjc.martinez.jose.a11_martinez_jose.WaterUsageApplication
+   Caused by: java.lang.NoClassDefFoundError: javafx/application/Application
+
